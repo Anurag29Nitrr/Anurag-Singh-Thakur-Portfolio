@@ -333,6 +333,12 @@ section {
   flex-direction: column;
 }
 
+.details-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
@@ -352,6 +358,13 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+/* Ensure consistent vertical alignment */
+article div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* PROJECTS SECTION */
