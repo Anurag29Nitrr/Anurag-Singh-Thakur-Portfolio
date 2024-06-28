@@ -337,7 +337,7 @@ article {
   display: flex;
   align-items: center;
   width: 10rem;
-  justify-content: flex-start; /* Changed from space-around to flex-start */
+  justify-content: space-around; /* Changed from space-around to flex-start */
   gap: 0.5rem;
 }
 
